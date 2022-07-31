@@ -20,9 +20,6 @@ parser = parser.parse_args()
 
 
 
-
-
-
 # Security headers
 security_headers =['Strict-Transport-Security',
                     'X-XSS-Protection',
