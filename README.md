@@ -5,7 +5,7 @@ HTTP Security Headers
 
 
 ##### Finds the security headers that are not enabled in a specific domain.
-´´´
+```
 $ python3 securityHeaders.py -t https://google.com
  [+] X-XSS-Protection => 0
  [+] X-Frame-Options => SAMEORIGIN
@@ -24,7 +24,7 @@ $ python3 securityHeaders.py -t https://google.com
  [!] Upgrate-Insecure-Requests 
  [!] X-Powered-By 
 
-´´´
+```
 
 
 ### HTTP Security Headers List
